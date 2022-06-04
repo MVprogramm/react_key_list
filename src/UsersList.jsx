@@ -37,8 +37,6 @@ class UsersList extends React.Component {
       user => user['id'] = Math.random()
     )
 
-    console.log(usersList)
-    
     return (
       <div>
         <button className='btn' onClick={this.toggleSorting}>
